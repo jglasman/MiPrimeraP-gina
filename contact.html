@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Primera página web de Jimena</title>
+    <link rel="stylesheet" href="mi_primer_proyecto.css" />
+  </head>
+
+  <body> 
+    <div class="Banner">
+      <img src="Banner.png" alt="" height="200" /> 
+    </div>
+      <div class="container-nav">
+        <nav class="navbar" role="navigation">
+        <a href="#" class="brand">Mi página web</a>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+      </div>
+        <div>
+            <h1>Contacto</h1>
+            <br/>
+            <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+          </div>
+            <div>
+                <form class="form">
+                    <!--Campo para nombre-->   
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"required>
+                    
+                    <!--Campo para correo electrónico-->   
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <!--Campo para mensaje-->   
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea required>
+                    
+                    <!--Campo para país-->   
+                    <label for="país">País:</label>
+                    <select id="país"name="país">
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="mexico">México</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="venezuela">Venezuela</option>
+                    </select>
+                 
+                    <!--Botón de envío-->
+                   <button type="submit">Enviar</button>
+                   </form>
+            
+                  </div>
+            
+   
+          
+    </div>
+    <script src= "mi_primer_proyecto.js"> </script>
+  </body>
+</html>

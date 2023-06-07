@@ -1,0 +1,24 @@
+# Query: mi_primer_website1.html
+# ContextLines: 1
+
+4 results - 4 files
+
+about.html:
+  15          <ul class="nav-links">
+  16:         <li><a href="mi_primer_website1.html">Home</a></li>
+  17          <li><a href="about.html">About</a></li>
+
+contact.html:
+  15          <ul class="nav-links">
+  16:         <li><a href="mi_primer_website1.html">Home</a></li>
+  17          <li><a href="about.html">About</a></li>
+
+index.html.html:
+  16        <ul class="nav-links">
+  17:       <li><a href="mi_primer_website1.html">Home</a></li>
+  18        <li><a href="about.html">About</a></li>
+
+services.html:
+  15          <ul class="nav-links">
+  16:         <li><a href="mi_primer_website1.html">Home</a></li>
+  17          <li><a href="about.html">About</a></li>
